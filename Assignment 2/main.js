@@ -6,4 +6,4 @@ console.log("Lowercase:", personName.toLowerCase());
 //printing a person name in upper case
 console.log("Uppercase:", personName.toUpperCase());
 //printing a person name in title case
-console.log("Titlecase:", personName.toTitleCase());
+console.log("Titlecase:", personName.replace(/\)bw/g, c => c.toUpperCase()));

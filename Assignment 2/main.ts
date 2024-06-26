@@ -1,6 +1,6 @@
 //Storing a person name in a variable
 
-let personName: string = "Hira Shaikh"
+let personName:string = "Hira Shaikh"
 
 //printing a person name in lower case
 
@@ -12,4 +12,4 @@ console.log("Uppercase:", personName.toUpperCase());
 
 //printing a person name in title case
 
-console.log("Titlecase:", personName.toTitleCase());
+console.log("Titlecase:", personName.replace(/\)bw/g,c =>c.toUpperCase()));
